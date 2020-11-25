@@ -135,3 +135,7 @@ body{
 .rotateline2{
     transform: rotate(-135deg);
 }
+
+[contenteditable] {
+    outline: 0px solid transparent;
+  }

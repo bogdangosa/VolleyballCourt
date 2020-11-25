@@ -1,15 +1,17 @@
 const Players = document.getElementsByClassName("player")
-const Arrow = document.getElementById("arrow")
+//const Arrow = document.getElementById("arrow")
 let ObjDraged = false
 let x,y ,prevx,prevy
 SetDrag()
+
+/*
 Arrow.addEventListener("click",function(){
     const Menu = document.getElementById("menu")
     const Lines = document.getElementsByClassName("arrline")
     Menu.classList.toggle("show")
     Lines[0].classList.toggle("rotateline1")
     Lines[1].classList.toggle("rotateline2")
-})
+})*/
 
 function SetDrag(){
 
