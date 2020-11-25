@@ -139,3 +139,22 @@ body{
 [contenteditable] {
     outline: 0px solid transparent;
   }
+
+@media(max-aspect-ratio: 4/3){
+    .court{
+        height: 60vh;
+    }
+}
+
+@media(max-aspect-ratio: 1/1){
+    .court{
+        height: 40vh;
+    }
+}
+
+@media(max-aspect-ratio: 2/3){
+    .court{
+        width: 100vw;
+        transform: rotate(90deg) translate(-50%,50%);
+    }
+}
